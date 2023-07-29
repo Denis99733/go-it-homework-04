@@ -233,6 +233,10 @@ a {
   align-items: flex-start;
   gap: 10px;
 }
+/* SVG */
+.svg-main{
+  padding-top: 120px;
+}
 /* Main 2 */
 .section-main-second {
   padding: 120px 0;
