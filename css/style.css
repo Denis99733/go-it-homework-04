@@ -234,9 +234,19 @@ a {
   gap: 10px;
 }
 /* SVG */
-.svg-main{
-  padding-top: 120px;
+.svg-icon{
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;  
+padding:24px 100px;
+border-radius: 4px;
+background:#F4F4FD;
+margin-bottom: 8px;
+gap: 24px
+;
 }
+
+
 /* Main 2 */
 .section-main-second {
   padding: 120px 0;
@@ -289,6 +299,31 @@ align-items: flex-start;
   padding-bottom: 120px;
 }
 /* Our team */
+.text-item-p{
+  padding-bottom: 8px;
+}
+.team-social-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+}
+.social-link{
+background:#4D5AE5;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+height: 40px;
+
+}
+.team-list-item{
+  width: 40px;
+  height: 40px;
+
+}
+
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -321,18 +356,24 @@ align-items: flex-start;
 }
 .team-item-inner {
   padding: 32px 0;
+  
 }
 /* footer */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+
 }
 .footer-logo {
   margin-bottom: 16px;
   margin-right: 0;
   display: inline-block;
+ 
 }
+.logo__footer{
+  display: inline-block;
 
+}
 .footer-logo-web {
   color: #f4f4fd;
   font-size: 18px;
@@ -347,6 +388,23 @@ align-items: flex-start;
   color: #f4f4fd;
   max-width: 264px;
 }
+.footer-social{
+  color: #fff;
+  padding-bottom: 12px;
+
+}
+.footer_container{
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 120px;
+
+}
+.footer__social_container{
+  gap:16px;
+  width: 100%;
+}
+
 /* Portfolio */
 .visually-hidden {
   position: absolute;
@@ -410,4 +468,30 @@ align-items: flex-start;
   display: flex;
   flex-direction: column;
 align-items: flex-start;
+}
+
+.customer__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:24px;
+  padding-bottom: 120px;
+
+}
+
+.customer__list-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--lightslate, #8E8F99);
+}
+.customer__item-svg{
+  margin: 16px 32px;
+}
+.Custom-main{
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
