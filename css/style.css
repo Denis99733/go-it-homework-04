@@ -133,10 +133,11 @@ a {
   align-items: center;
   gap: 40px;
 }
-.header-menu-item {
+.header-menu-link {
   position: relative;
+  color: #404bbf;
 }
-.header-menu-item--active::after {
+.header-menu-link--active::after {
   content: "";
   position: absolute;
   bottom: -1px;
