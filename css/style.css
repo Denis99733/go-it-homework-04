@@ -342,7 +342,7 @@ a {
 }
 .team-social {
   fill: #f4f4fd;
-  fill: currentColor;
+
 }
 .social-link {
   background: #4d5ae5;
@@ -599,7 +599,7 @@ a {
 
 .customer__item-svg {
   margin: 16px 32px;
-  fill: #f4f4fd;
+  fill: currentColor;
 }
 .customer_svg_link {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
